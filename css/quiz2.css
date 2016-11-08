@@ -1,25 +1,32 @@
 /*Write more CSS to do the following:
- - a transition on the section elements that when hovered on, the background color changes to something else
- - give a border to the section elements and a border radius of 10px
- - set up the document to use ems or rems based off of a 62.5% root font size
- - a transition that moves the <p> tags over a few pixels when you hover over them (and back when you aren't hovering)*/
+ - a transition on the section elements that when hovered on, the background color changes to something else ✅
+ - give a border to the section elements and a border radius of 10px ✅
+ - set up the document to use ems or rems based off of a 62.5% root font size ✅
+ - a transition that moves the <p> tags over a few pixels when you hover over them (and back when you aren't hovering)*/ ✅
 
-html, bdy {
+html, body {
 	font-family: Helvetica, Arial, sans-serif;
 	background: #eeee;
+	font-size: 62.5%;
 }
 
 p {
-	margin: 10px 0;
-	font-weight: bold
+	margin: 10px 2px; /* A little more readable */
+	font-weight: bold;
+}
+
+p:hover {
+	padding-left: 5px;
 }
 
 section {
 	margin-bottom: 10px;
+	border: 1px solid darkblue;
+	border-radius: 10px;
 }
 
-ul {
-	list-style: none;
+section:hover {
+	background-color: gold;
 }
 
 ul {

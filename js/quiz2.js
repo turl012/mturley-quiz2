@@ -6,10 +6,11 @@
 //  - finally, write a function that makes you happy :D (as in, have some fun a write something cool, it's up to you!)
 
 (function($){
-	$('.links li a').on('click', function(e) {
+	$("links li a").on("click", function(e) {
 		e.preventDefault()
-		alrt('you clicked a link, good for you');
+		alert("you clicked a link, good for you");
+		console.log("Debug")
 	});
 
 	console.log("this is a message for you!!!")
-})(jQery);
+})(jQuery);
