@@ -26,9 +26,14 @@ section {
 }
 
 section:hover {
-	background-color: gold;
+	background-color: #9CCE31;
 }
 
 ul {
 	list-style: none;
+}
+
+.jsOL {
+	color: red;
+	font-weight: bold;
 }
