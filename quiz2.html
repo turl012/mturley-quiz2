@@ -5,7 +5,7 @@
 	<link href="css/quiz2.css" rel="stylesheet">
 	<title>Matthew Turley - Quiz 2</title>
 </head>
-<body>
+<body id="onDisconnet">
 	<h1>Welcome To The Wonderful World of Debugging Code</h1>
 
 	<section id="mainSection">
@@ -26,10 +26,10 @@
 
 	<p>I am a lonely paragraph, with no immediate parent.</p>
 
-	<section id=secondarySection>
+	<section id="secondarySection">
 		<p>Woop woop!!!</p>
 		<p>See how elegantly we're spaced out?</p>
-		<p>Yeah, we're spaced out alright.<//p>
+		<p>Yeah, we're spaced out alright.</p>
 
 		<ol>
 			<li>I'm like an unordered list</li>
@@ -37,6 +37,10 @@
 			<li>That was a really bad joke.</li>
 		</ol>
 	</section>
+
+	<form method="get" name="fadePage" id="fadePage" onsubmit="return(fadeDoc());">
+		<button type="submit" value="submit">I have to Go!</button>
+	</form>
 
 	<!-- Scripts Should be Imported #AmIRight -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
